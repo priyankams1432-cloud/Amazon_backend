@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import create_engine
 from db import get_db,DATABASE_URL
+from db import engine
 import os
 from models import Base
 
